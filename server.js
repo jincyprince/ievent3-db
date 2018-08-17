@@ -26,7 +26,7 @@ mongoose
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.log(err));
 
-// app.get('/', (req, res) => res.json({ msg: "hello my name is" }));
+app.get('/', (req, res) => res.json({ msg: "Welcome to iEvent DB" }));
 // app.get('/about', (req, res) => res.send("Our company was founded in 2015"));
 app.use('/schools', schools);
 
